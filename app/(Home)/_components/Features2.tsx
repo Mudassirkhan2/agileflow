@@ -11,8 +11,8 @@ import {
 
 const Features2 = () => {
     return (
-        <div className="  md:flex md:space-x-20 py-20 space-y-10 items-center justify-center bg-[#28282B] ">
-            <div className="flex flex-col px-2 space-y-6 text-gray-200 md:px-10 md:w-1/3">
+        <div className="  lg:flex md:space-x-20 py-20 space-y-10 items-center justify-center bg-[#28282B] ">
+            <div className="flex flex-col px-2 space-y-6 text-gray-200 md:px-10 lg:w-1/3">
                 <div className="text-xl ">STREAMLINE YOUR WORK AND PROCESSES</div>
                 <div className="text-4xl ">Prioritize revenue-driving work</div>
                 <div className="text-xl ">

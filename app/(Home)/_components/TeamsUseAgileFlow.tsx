@@ -67,7 +67,7 @@ const TeamsUseAgileFlow = () => {
                         opacity: isInView ? 1 : 0,
                         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
                     }}
-                    className="border-b md:flex md:space-x-20 md:py-10">
+                    className="border-b lg:flex md:space-x-10 md:py-10">
                     <div className="space-y-10">
                         <div className="text-3xl">
                             80% of Fortune 100 companies use AgileFlow
@@ -83,26 +83,26 @@ const TeamsUseAgileFlow = () => {
                         className="grid items-center justify-center grid-cols-2 py-10 md:flex md:space-x-10 ">
                         <Image
                             src="/images/logo/logo-5.svg"
-                            width={150}
-                            height={150}
+                            width={100}
+                            height={100}
                             alt="logo"
                         />
                         <Image
                             src="/images/logo/logo-13.svg"
-                            width={150}
-                            height={150}
+                            width={100}
+                            height={100}
                             alt="logo"
                         />
                         <Image
                             src="/images/logo/logo-8.svg"
-                            width={150}
-                            height={150}
+                            width={100}
+                            height={100}
                             alt="logo"
                         />
                         <Image
                             src="/images/logo/logo-9.svg"
-                            width={150}
-                            height={150}
+                            width={100}
+                            height={100}
                             alt="logo"
                         />
                     </motion.div>
@@ -120,7 +120,7 @@ const TeamsUseAgileFlow = () => {
                 {tabs.map((tab) => (
                     <div
                         key={tab.name}
-                        className={`flex justify-center items-center space-x-10 w-60 ${activeTab === tab ? "border-b-4 pt-2 border-gray-500 text-gray-800" : "text-muted-foreground"} `}
+                        className={`flex justify-center items-center space-x-4 w-44 ${activeTab === tab ? "border-b-4 pt-2 border-gray-500 text-gray-800" : "text-muted-foreground"} `}
                         onClick={() => setActiveTab(tab)}
                         style={{ cursor: 'pointer' }}
                     >
@@ -137,7 +137,7 @@ const TeamsUseAgileFlow = () => {
                         <div
                             style={{ height: '525px', width: '700px' }}
                             className="flex-col p-10 bg-gray-200 rounded-md">
-                            <p className="py-10 text-4xl underline border-b ">{activeTab.title}</p>
+                            <p className="py-10 underline border-b xl:text-4xl ">{activeTab.title}</p>
                             <div className="items-center justify-center space-y-10">
                                 <ul className="flex space-x-4">
                                     <CheckCircle2 className="w-6 h-6 text-gray-500" />
@@ -154,8 +154,7 @@ const TeamsUseAgileFlow = () => {
                             </div>
                         </div>
                         <div
-                            style={{ height: '525px', width: '700px' }}
-                            className="flex items-center justify-center rounded-md bg-gradient-to-r from-gray-400 to-gray-100">
+                            className="flex items-center justify-center w-1/2 rounded-md bg-gradient-to-r from-gray-400 to-gray-100">
                             <Image
                                 src={activeTab.image}
                                 width={530}

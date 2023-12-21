@@ -32,14 +32,14 @@ const Features = () => {
         };
     }, []);
     return (
-        <section className="flex flex-col items-center justify-center px-20 space-y-10 ">
+        <section className="flex flex-col items-center justify-center space-y-10 md:px-20 ">
             <div className="flex py-20 ">
                 <div className="flex flex-col space-y-6 ">
-                    <div className="px-10 text-xl text-gray-800">
+                    <div className="text-xl text-gray-800 md:px-10">
                         DRIVE EFFICIENCY ACROSS TEAMS
                     </div>
-                    <div className="px-10 text-4xl">Manage complex work easily</div>
-                    <div className="px-10 text-xl text-gray-600">
+                    <div className="text-4xl md:px-10">Manage complex work easily</div>
+                    <div className="text-xl text-gray-600 md:px-10">
                         Connect what needs to get done, who is responsible, and how to get
                         it done.
                     </div>

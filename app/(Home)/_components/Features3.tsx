@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Features3 = () => {
     return (
-        <div className="flex flex-col md:py-20 md:p-40 p-4   bg-[#E5E4E2]  ">
+        <div className="flex flex-col md:py-20 lg:p-40 p-4   bg-[#E5E4E2]  ">
             <div className="flex flex-col pb-10 space-y-6 md:px-20">
                 <div className="text-xl ">Get started easily</div>
                 <div className="text-4xl ">Prioritize revenue-driving work</div>
