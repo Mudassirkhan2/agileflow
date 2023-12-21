@@ -38,13 +38,13 @@ const Features = () => {
                     <div className="px-10 text-xl text-gray-800">
                         DRIVE EFFICIENCY ACROSS TEAMS
                     </div>
-                    <div className="px-10 text-4xl w-96">Manage complex work easily</div>
+                    <div className="px-10 text-4xl">Manage complex work easily</div>
                     <div className="px-10 text-xl text-gray-600">
                         Connect what needs to get done, who is responsible, and how to get
                         it done.
                     </div>
 
-                    <div className="items-center p-2 space-y-10 lg:p-10 md:flex md:space-x-60">
+                    <div className="items-center space-y-10 lg:p-10 md:flex md:space-x-60">
 
                         <div className="">
                             <Image
@@ -52,10 +52,11 @@ const Features = () => {
                                 alt="Image"
                                 width={700}
                                 height={700}
+                                className="w-[95%]"
                             />
                         </div>
 
-                        <div className="space-y-10 border-b">
+                        <div className="p-2 space-y-10 border-b">
                             <div className="text-3xl">Timeline</div>
                             <div className="text-lg text-gray-600 md:text-xl w-96">
                                 See how work maps out over time. Manage dependent, overlapping, and unscheduled tasks—and create plans your team can count on.
@@ -66,7 +67,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="items-center p-2 space-y-10 lg:p-10 md:flex md:space-x-60">
+                    <div className="items-center space-y-10 lg:p-10 md:flex md:space-x-60">
 
                         <div className="">
                             <Image
@@ -74,10 +75,11 @@ const Features = () => {
                                 alt="Image"
                                 width={700}
                                 height={700}
+                                className="w-[95%]"
                             />
                         </div>
 
-                        <div className="space-y-10 border-b">
+                        <div className="p-2 space-y-10 border-b">
                             <div className="text-3xl">Boards</div>
                             <div className="text-lg text-gray-600 md:text-xl w-96">
                                 Make it easy for your team to focus on tasks currently at hand. Define each stage of work to see what is important and where things are getting stuck.
@@ -88,7 +90,7 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="items-center p-2 space-y-10 lg:p-10 md:flex md:space-x-60">
+                    <div className="items-center space-y-10 lg:p-10 md:flex md:space-x-60">
 
                         <div className="">
                             <Image
@@ -96,10 +98,11 @@ const Features = () => {
                                 alt="Image"
                                 width={700}
                                 height={700}
+                                className="w-[95%]"
                             />
                         </div>
 
-                        <div className="space-y-10 border-b">
+                        <div className="p-2 space-y-10 border-b">
                             <div className="text-3xl">Timeline</div>
                             <div className="text-lg text-gray-600 md:text-xl w-96">
                                 See how work maps out over time. Manage dependent, overlapping, and unscheduled tasks—and create plans your team can count on.

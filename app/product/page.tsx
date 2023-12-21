@@ -8,7 +8,7 @@ import RobustFeatures from './_components/RobustFeatures'
 
 const page = () => {
     return (
-        <main>
+        <main >
             <HeroSection />
             <WhyAgileFlow />
             <Features />

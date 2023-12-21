@@ -21,7 +21,7 @@ const CompaniesUsingAgileFlow = () => {
                     <div className="flex items-start justify-start px-10 text-4xl text-white md:px-0 md:text-6xl md:pb-10 ">
                         Why companies choose AgileFlow
                     </div>
-                    <div className="px-10 md:w-3/4">
+                    <div className="md:px-10 md:w-3/4">
                         <div className="flex items-center justify-center py-10 space-x-10 text-2xl text-white border-t border-b md:space-x-20">
                             <CheckCircle2 className="w-10 h-10 md:h-20 md:w-20 " />
                             <div className="md:w-80 md:text-3xl text-md w-72">

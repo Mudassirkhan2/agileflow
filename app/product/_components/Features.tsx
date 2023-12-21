@@ -62,7 +62,7 @@ const Features = () => {
         <div className="flex flex-col items-center justify-center py-10 space-y-10">
             <div className="text-4xl text-center">Built to support any team and any workflow</div>
 
-            <div className="flex items-center justify-center px-10 space-x-10">
+            <div className="flex items-center justify-center px-10 md:space-x-10">
                 <div className="">
                     {options.map((option, index) => (
                         <Accordion
@@ -72,7 +72,7 @@ const Features = () => {
                         >
                             <AccordionItem key={index} value={option.title}>
                                 <AccordionTrigger
-                                    className="text-3xl w-96" value={option.title}>
+                                    className="text-xl md:text-3xl md:w-96" value={option.title}>
                                     {option.title}
                                 </AccordionTrigger>
                                 <AccordionContent className="border-b border-blue-500">

@@ -47,7 +47,7 @@ const Pricing = () => {
                     className={`${isMonthlyPlan ? "block" : "hidden"
                         } text-center  text-2xl`}
                 ></div>
-                <div className="items-center justify-center p-4 space-y-10 md:p-10 md:flex md:space-x-10 md:space-y-0 lg:w-3/4 md:mx-auto">
+                <div className="items-center justify-center space-y-10 md:p-10 md:flex md:space-x-10 md:space-y-0 lg:w-3/4 md:mx-auto">
                     <div className="p-10 space-y-8 border border-gray-500 rounded-lg md:w-1/2 ">
                         <h4 className="text-2xl">Basic</h4>
                         <div className="text-xl">
