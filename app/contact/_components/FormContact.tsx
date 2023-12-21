@@ -107,9 +107,9 @@ export default function FormContact() {
     }
   }
   return (
-    <main className="flex flex-col items-center justify-center px-20 py-20 space-y-10 text-center m:px-0">
+    <main className="flex flex-col items-center justify-center p-2 space-y-10 text-center md:p-8 lg:px-20 lg:py-20 m:px-0">
       {!submitted ? (
-        <section className="text-5xl ">
+        <section className="mt-4 text-5xl">
           <h3 className="text-5xl ">Talk with our sales team</h3>
           <div className="text-xl">
             Fill out your information and a AgileFlow sales representative will contact
@@ -123,18 +123,17 @@ export default function FormContact() {
         {!submitted ? (
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="p-8 space-y-6 border md:w-2/3 rounded-xl "
+            className="space-y-6 border lg:p-8 md:w-2/3 rounded-xl "
           >
             <FormField
               control={form.control}
               name="first_name"
               render={({ field }) => (
-                <FormItem className="flex items-center justify-center w-full space-y-4">
+                <FormItem className="flex flex-col items-center justify-center w-full space-y-4 md:flex-row">
                   <FormLabel className="pt-4 text-2xl w-60">First Name</FormLabel>
                   <FormControl>
                     <Input className="w-full" placeholder="" {...field} />
                   </FormControl>
-
                   <FormMessage />
                 </FormItem>
               )}
@@ -143,7 +142,7 @@ export default function FormContact() {
               control={form.control}
               name="last_name"
               render={({ field }) => (
-                <FormItem className="flex items-center justify-center w-full space-y-4">
+                <FormItem className="flex flex-col items-center justify-center w-full space-y-4 md:flex-row">
                   <FormLabel className="pt-4 text-2xl w-60">Last Name</FormLabel>
                   <FormControl>
                     <Input className="" placeholder="" {...field} />
@@ -158,7 +157,7 @@ export default function FormContact() {
               control={form.control}
               name="email"
               render={({ field }) => (
-                <FormItem className="flex items-center justify-center space-y-4 ">
+                <FormItem className="flex flex-col items-center justify-center space-y-4 md:flex-row ">
                   <FormLabel className="pt-4 text-2xl w-60">Email</FormLabel>
                   <FormControl>
                     <Input className="" placeholder="" {...field} />
@@ -171,7 +170,7 @@ export default function FormContact() {
               control={form.control}
               name="phone_number"
               render={({ field }) => (
-                <FormItem className="flex items-center justify-center w-full space-y-4">
+                <FormItem className="flex flex-col items-center justify-center w-full space-y-4 md:flex-row">
                   <FormLabel className="pt-4 text-2xl w-60">
                     Phone Number
                   </FormLabel>
@@ -188,7 +187,7 @@ export default function FormContact() {
               control={form.control}
               name="country"
               render={({ field }) => (
-                <FormItem className="flex items-center justify-center w-full space-y-4">
+                <FormItem className="flex flex-col items-center justify-center w-full space-y-4 md:flex-row">
                   <FormLabel className="pt-4 text-2xl w-60">Country</FormLabel>
                   <Select
 
@@ -217,7 +216,7 @@ export default function FormContact() {
               control={form.control}
               name="company_size"
               render={({ field }) => (
-                <FormItem className="flex items-center justify-center w-full space-y-4">
+                <FormItem className="flex flex-col items-center justify-center w-full space-y-4 md:flex-row">
                   <FormLabel className="pt-4 text-2xl w-60">Company Size</FormLabel>
                   <Select
                     onValueChange={field.onChange}
@@ -260,7 +259,7 @@ export default function FormContact() {
               control={form.control}
               name="info"
               render={({ field }) => (
-                <FormItem className="flex items-center justify-center w-full space-y-4">
+                <FormItem className="flex flex-col items-center justify-center w-full space-y-4 md:flex-row">
                   <FormLabel className="pt-4 text-2xl w-60">
                     Information
                   </FormLabel>

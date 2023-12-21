@@ -4,9 +4,9 @@ import React from 'react'
 const RobustFeatures = () => {
     return (
         <section>
-            <div className="py-20 space-y-20 px-10 items-center justify-center flex flex-col bg-[#E5E4E2]">
+            <div className="py-8 px-4 2xl:py-20 space-y-20 2xl:px-10 items-center justify-center flex flex-col bg-[#E5E4E2]">
                 <h2 className="text-4xl text-center md:w-2/5">Robust features to achieve any business objective as your company grows</h2>
-                <div className="space-y-10 md:space-x-40 md:flex md:space-y-0">
+                <div className="flex-wrap items-center justify-center gap-2 space-y-10 md:space-x-16 2xl:space-x-40 md:flex md:space-y-0">
                     <div className="flex flex-col space-y-4 w-96 ">
                         <Image
                             src="/images/icons/gears.png"
@@ -53,7 +53,7 @@ const RobustFeatures = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="space-y-10 md:space-x-40 md:flex md:space-y-0">
+                <div className="flex-wrap items-center justify-center gap-2 space-y-10 md:space-x-16 2xl:space-x-40 md:flex md:space-y-0">
                     <div className="flex flex-col space-y-4 w-96">
                         <Image
                             src="/images/icons/lock.png"

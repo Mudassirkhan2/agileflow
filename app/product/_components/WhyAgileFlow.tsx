@@ -4,11 +4,11 @@ import React from 'react'
 const WhyAgileFlow = () => {
     return (
         <section className="flex flex-col items-center justify-center py-10 space-y-10">
-            <div className="text-5xl ">Why AgileFlow ?</div>
-            <div className="text-2xl text-center">
+            <h2 className="text-5xl ">Why AgileFlow ?</h2>
+            <p className="text-2xl text-center">
                 According to JDA, AgileFlow improves employee productivity by 45%.
-            </div>
-            <div className="space-y-10 text-xl md:flex md:space-y-0 md:space-x-20">
+            </p>
+            <div className="flex-wrap justify-center gap-2 space-y-10 text-xl lg:gap-8 md:gap-4 md:flex md:space-y-0 ">
                 <div className="p-8 border rounded-lg w-80 text-amber-300">
                     <div className="flex items-center space-x-2">
                         <div>

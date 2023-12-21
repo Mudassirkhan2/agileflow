@@ -11,7 +11,7 @@ const Hero = () => {
         >
             <div className="container mx-auto text-center md:w-1/2">
                 <div
-                    className="flex justify-center pb-10 text-6xl md:text-6xl md:px-20 "
+                    className="flex justify-center pb-10 text-3xl md:text-6xl md:px-20 "
                 >
                     The best platform for cross-functional work
                 </div>

@@ -59,7 +59,7 @@ const TeamsUseAgileFlow = () => {
 
     return (
         <div ref={ref}
-            className="flex flex-col items-center justify-center p-10 md:py-20">
+            className="flex flex-col items-center justify-center p-4 xl:p-10 md:py-20">
             <div className="flex items-center justify-center">
                 <div
                     style={{
